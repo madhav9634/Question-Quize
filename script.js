@@ -74,6 +74,253 @@ const questions = [
       {text: 'To handle routing requests', correct: false},
     ],
   },
+  {
+    question: 'What is ViewBag used for in ASP.NET MVC...?:',
+    answers: [
+      {
+        text: 'To store strongly-typed data',
+        correct: false,
+      },
+      {
+        text: 'To store dynamic data passed from the Controller to the View',
+        correct: true,
+      },
+      {text: 'To manage database transactions', correct: false},
+      {text: 'To handle user sessions', correct: false},
+    ],
+  },
+  {
+    question: 'What is Model Binding in ASP.NET MVS...?:',
+    answers: [
+      {
+        text: 'The process of binding data to the View',
+        correct: false,
+      },
+      {
+        text: 'The process of binding the Model to the Controller',
+        correct: false,
+      },
+      {
+        text: 'The process of binding the View to the Controller',
+        correct: false,
+      },
+      {
+        text: 'The process of binding data from a from to Model object',
+        correct: true,
+      },
+    ],
+  },
+  {
+    question: 'What is the role of Action Filters in ASP.NET MVC...?:',
+    answers: [
+      {
+        text: 'To define the application routes',
+        correct: false,
+      },
+      {
+        text: 'To handle data validation',
+        correct: false,
+      },
+      {
+        text: 'To modify the behavior of Controller actions',
+        correct: true,
+      },
+      {
+        text: 'To manage database connections',
+        correct: false,
+      },
+    ],
+  },
+  {
+    question: 'What is Partial View in ASP.NET MVC...?:',
+    answers: [
+      {
+        text: 'A reusable section of a View',
+        correct: true,
+      },
+      {
+        text: 'A View that is only displayed on certain conditions',
+        correct: false,
+      },
+      {
+        text: 'A View that handle only partial data',
+        correct: false,
+      },
+      {
+        text: 'A View that does not interact with the Model',
+        correct: false,
+      },
+    ],
+  },
+  {
+    question: 'What is the purpose of an Action Result in ASP.NET MVC...?:',
+    answers: [
+      {
+        text: 'To define in the Application',
+        correct: false,
+      },
+      {
+        text: 'To define the response returned by a Controller action',
+        correct: true,
+      },
+      {
+        text: 'To define the data Model for a View',
+        correct: false,
+      },
+      {
+        text: 'To define the layout of a View',
+        correct: false,
+      },
+    ],
+  },
+  {
+    question: 'What is difference between ViewData and ViewBag...?:',
+    answers: [
+      {
+        text: 'ViewData is strongly typed, ViewBag is dynamic',
+        correct: true,
+      },
+      {
+        text: 'ViewBag is strongly typed, ViewData is dynamic',
+        correct: false,
+      },
+      {
+        text: 'There is no difference',
+        correct: false,
+      },
+      {
+        text: 'ViewData is used for data, ViewBag is used for configuration',
+        correct: false,
+      },
+    ],
+  },
+  {
+    
+    question: 'Which of the following is used to handle HTTP request in ASP.NET MVC...?:',
+    answers: [
+      {
+        text: 'Models',
+        correct: false,
+      },
+      {
+        text: 'View',
+        correct: false,
+      },
+      {
+        text: 'Controller',
+        correct: true,
+      },
+      {
+        text: 'Routes',
+        correct: false,
+      },
+    ],
+  },
+  {
+    question: 'Which of the following is NOT a server control in ASP.NET Web Forms...?:',
+    answers: [
+      {
+        text: 'Label',
+        correct: false,
+      },
+      {
+        text: 'TextBox',
+        correct: false,
+      },
+      {
+        text: 'Image',
+        correct: false,
+      },
+      {
+        text: 'Div',
+        correct: true,
+      },
+    ],
+  },
+  {
+    question: 'What is the primary purpose of a server control in ASP.NET...?:',
+    answers: [
+      {
+        text: 'To handle client-side scripting',
+        correct: false,
+      },
+      {
+        text: 'To enhance the visual appearence of the page',
+        correct: false,
+      },
+      {
+        text: 'To generate HTML dynamically on the server',
+        correct: true,
+      },
+      {
+        text: 'To manage databade connection',
+        correct: false,
+      },
+    ],
+  },
+  {
+    question: 'Which property of a server control is used to uniquely Identify it on the page...?:',
+    answers: [
+      {
+        text: 'Text',
+        correct: false,
+      },
+      {
+        text: 'ID',
+        correct: true,
+      },
+      {
+        text: 'Class',
+        correct: false,
+      },
+      {
+        text: 'Style',
+        correct: false,
+      },
+    ],
+  },
+  {
+    question: 'What event is typically used to handle user input in a TextBox server control...?:',
+    answers: [
+      {
+        text: 'OnClick',
+        correct: false,
+      },
+      {
+        text: 'OnLoad',
+        correct: true,
+      },
+      {
+        text: 'OnTextChanged',
+        correct: false,
+      },
+      {
+        text: 'OnPageLoad',
+        correct: false,
+      },
+    ],
+  },
+  {
+     question: 'Which server control is best suited for displaying a read-only piece of text...?:',
+    answers: [
+      {
+        text: 'TextBox',
+        correct: false,
+      },
+      {
+        text: 'Button',
+        correct: false,
+      },
+      {
+        text: 'Label',
+        correct: true,
+      },
+      {
+        text: 'Image',
+        correct: false,
+      },
+    ],
+  },
 ];
 
 const questionElement = document.getElementById ('question');
